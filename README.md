@@ -34,9 +34,11 @@ OpenWRT and other Unix-like platforms.
 #### Fing Kit SDK
 
 The Fing SDK is a lightweight development kit containing a portable C Header, the libraries and some working example to simplify users' job.
-The available release can be found [here](https://app.fing.com/internet/business/devrecog/documentation)
+The available release can be found [here](https://app.fing.com/internet/business/devrecog/documentation).
+
 __Fing SDK requires a license key to work. [Create a trial license](https://app.fing.com/internet/business/devrecog/trial) 
 or [contact us](mailto:sales@fing.com) to get a valid key.__ 
+
 The current documentation is available [here](https://get.fing.com/fing-business/devrecog/documentation/Fing_Desktop_Embedded_SDK.pdf).
 
 ```text
