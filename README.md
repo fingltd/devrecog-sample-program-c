@@ -13,7 +13,7 @@ Table of contents
 - [Build](#Build)
    1. [Windows](#Windows)
    2. [Linux](#Linux)
-   3. [MAC OSx](#MAC OSx)
+   3. [MAC OSx](#MACOSX)
 - [Authors](#Authors)
 - [License](#License) 
 
@@ -118,14 +118,16 @@ It creates a Visual Studio project. The documentation of Visual Studio 9 2008 is
 cd build
 cmake ..
 make
+DYLD_LIBRARY_PATH=../lib ./devrecog-c
 ```
 
-#### MAC OSX 
+#### MACOSX 
 
 ```bash
 cd build
 cmake ..
 make
+LD_LIBRARY_PATH=../lib ./devrecog-c
 ```
 
 Authors
