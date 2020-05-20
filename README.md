@@ -1,10 +1,9 @@
-<p align="center">
-  <h1 align="center">Fing</h1>
-  <a href="https://example.com/">
+<div align="center">
+    <a href="https://example.com/">
     <img src="https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/eb/71/e7/eb71e77e-4171-e679-81eb-e41835eb4361/AppIcon-0-1x_U007emarketing-0-0-85-220-0-7.png/246x0w.jpg" 
-    alt="Fing" width=72 height=72>
+         alt="Fing" width=72 height=72>
   </a>
-</p>
+</div>
 
 Table of contents
 -----------------
@@ -12,6 +11,9 @@ Table of contents
 - [Description](#Description)
 - [Dependencies](#Dependencies)
 - [Build](#Build)
+   1. [Windows](#Windows)
+   2. [Linux](#Linux)
+   3. [MAC OSx](#MAC OSx)
 - [Authors](#Authors)
 - [License](#License) 
 
@@ -29,17 +31,16 @@ It consists of two components:
 2. The device recognition API, providing the recognition technology
    
 The Fing SDK is delivered as a library for Windows, Linux, MAC OSx,
-OpenWRT and other Unix-like platforms. 
- 
-#### Fing Kit SDK
-
-The Fing SDK is a lightweight development kit containing a portable C Header, the libraries and some working example to simplify users' job.
-The available release can be found [here](https://app.fing.com/internet/business/devrecog/documentation).
+OpenWRT and other Unix-like platforms and can be download from [Fing Releases page](https://app.fing.com/internet/business/devrecog/releases)
 
 __Fing SDK requires a license key to work. [Create a trial license](https://app.fing.com/internet/business/devrecog/trial) 
 or [contact us](mailto:sales@fing.com) to get a valid key.__ 
 
-The current documentation is available [here](https://get.fing.com/fing-business/devrecog/documentation/Fing_Desktop_Embedded_SDK.pdf).
+The documentation can download from this link:
+
+[Fing Desktop/Embedded SDK](https://get.fing.com/fing-business/devrecog/documentation/Fing_Desktop_Embedded_SDK.pdf)
+
+The Fing SDK contains a portable C Header and the libraries along with some working example to simplify users' job.
 
 ```text
 .
@@ -73,7 +74,7 @@ On Windows the executable ```FingKitDemo.bin``` is called
 Dependencies
 -----
 
-This sample project comes with all the dependencies:
+All the dependencies are available in the Fing SDK:
 
 - [boost](https://www.boost.org/users/history/version_1_58_0.html) (v1.58.0)
 - [protobuf](https://github.com/protocolbuffers/protobuf/releases/tag/v2.6.1) (v2.6.1)
@@ -86,7 +87,17 @@ Build
 -----
 
 All the package are built using [CMake](https://cmake.org/) as build, 
-test and packaging tools.
+test and packaging tools. Below the list of CMake variable that can be set:
+
+| Variable        | Description
+| --------------- | -----------
+| C_EXECUTABLE    | Name of C Executable
+| CPP_EXECUTABLE  | Name of C++ Executable
+| CS_EXECUTABLE   | Name of C# Executable
+
+Before bulding the project on any platform it's mandatory to __copy the content 
+of the ```lib/``` folder of Fing SDK into the ```lib/``` folder of the current 
+project__.
 
 The ```build/``` directory contains some utilities to create packages 
 for the variety of supported operating systems.
@@ -101,7 +112,15 @@ build\windows-cmake-build-mscv9-solution.bat
 
 It creates a Visual Studio project. The documentation of Visual Studio 9 2008 is available [here](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008) 
 
-#### MAC OSX / Linux / Unix
+#### Linux
+
+```bash
+cd build
+cmake ..
+make
+```
+
+#### MAC OSX 
 
 ```bash
 cd build
