@@ -145,7 +145,7 @@ Authors
 License
 --------
 
-Code released under the [MIT License](https://reponame/blob/master/LICENSE).
+Code released under the [MIT License](https://github.com/fingltd/devrecog-sample-program-c/blob/master/LICENSE).
 
 
 
