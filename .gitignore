@@ -23,6 +23,11 @@
 *.la
 *.lo
 
+# Shared Objects and DLL
+*.dll
+*.so
+*.dylib
+
 # Executables
 *.exe
 *.out
