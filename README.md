@@ -31,7 +31,28 @@ It consists of two components:
 2. The device recognition API, providing the recognition technology
    
 The Fing SDK is delivered as a library for Windows, Linux, MAC OSx,
-OpenWRT and other Unix-like platforms and can be download from [Fing Releases page](https://app.fing.com/internet/business/devrecog/releases)
+OpenWRT and other Unix-like platforms and can be downloaded from here:
+
+| Name | Description | Link |
+| ---- | ----------- | ---- |
+| Windows SDK | Fing Kit for Windows Operating System | [Latest](https://get.fing.com/fing-business/devrecog/releases/sdk/windows/fingkit.zip)
+| MAC OSx SDK | Fing Kit for Mac OSx | [Latest](https://get.fing.com/fing-business/devrecog/releases/sdk/macosx/fingkit.zip)
+
+__M1 processor (aarch64) are not supported yet. Please open a ticket if you want to try the SDK for that architecture!__
+
+Below the link for Linux-based operating system:
+
+| Architecture | Description | Link |
+| ------------ | ----------- | ---- |
+| AMD64 | Fing Kit for Linux x86 64 | [Latest](https://get.fing.com/fing-business/devrecog/releases/sdk/linux/fingkit_amd64.zip)
+| i686 | Fing Kit for Linux i686 | [Latest](https://get.fing.com/fing-business/devrecog/releases/sdk/linux/fingkit_i686.zip)
+| ARM | Fing Kit for Linux ARM | [Latest](https://get.fing.com/fing-business/devrecog/releases/sdk/linux/fingkit_arm.zip)
+| ARMHF | Fing Kit for Linux ARM Hard Float | [Latest](https://get.fing.com/fing-business/devrecog/releases/sdk/linux/fingkit_armhf.zip)
+| ARM64 | Fing Kit for Linux ARM 64 | [Latest](https://get.fing.com/fing-business/devrecog/releases/sdk/linux/fingkit_arm64.zip)
+| MIPS | Fing Kit for Linux MIPS | [Latest](https://get.fing.com/fing-business/devrecog/releases/sdk/linux/fingkit_mips.zip)
+| MIPS64 | Fing Kit for Linux MIPS 64| [Latest](https://get.fing.com/fing-business/devrecog/releases/sdk/linux/fingkit_mips64.zip)
+| MIPSEL | Fing Kit for Linux MIPSEL | [Latest](https://get.fing.com/fing-business/devrecog/releases/sdk/linux/fingkit_mipsel.zip)
+| MIPS64EL | Fing Kit for Linux MIPSEL 64 | [Latest](https://get.fing.com/fing-business/devrecog/releases/sdk/linux/fingkit_mips64el.zip)
 
 __Fing SDK requires a license key to work. [Create a trial license](https://app.fing.com/internet/business/devrecog/trial) 
 or [contact us](mailto:sales@fing.com) to get a valid key.__ 
