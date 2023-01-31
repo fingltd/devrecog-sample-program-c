@@ -17,8 +17,7 @@ Table of contents
 - [Authors](#Authors)
 - [License](#License) 
 
-Description
-------------
+# Description
 This folder contains the source code of a sample demo program exploiting Fing SDK 
 for network scanning and device recognition.
 
@@ -30,8 +29,12 @@ It consists of two components:
 1. The local scanner, which scans the network for devices
 2. The device recognition API, providing the recognition technology
    
-The Fing SDK is delivered as a library for Windows, Linux, MAC OSx,
-OpenWRT and other Unix-like platforms and can be downloaded from here:
+The Fing SDK is delivered as a library for Windows, Linux and MAC OSx.
+
+__While the kit has been designed mostly for desktop-oriented operating systems, it can be integrated on server-oriented operating system, such as Windows server, Ubuntu server.__
+
+## Downloads
+Below the link for Linux-based operating system:
 
 | Name | Description | Link |
 | ---- | ----------- | ---- |
@@ -60,6 +63,8 @@ or [contact us](mailto:sales@fing.com) to get a valid key.__
 The documentation can download from this link:
 
 [Fing Desktop/Embedded SDK](https://get.fing.com/fing-business/devrecog/documentation/Fing_Desktop_Embedded_SDK.pdf)
+
+# Usage
 
 The Fing SDK contains a portable C Header and the libraries along with some working example to simplify users' job.
 
