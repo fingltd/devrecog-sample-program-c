@@ -242,7 +242,7 @@ int main() {
         return 1;
     }
     license[characters - 1] = '\0';
-    printf (">>>>>>  License key is:<%s>\n", license);
+    printf (">>>>>>  License key is: <%s>\n", license);
 
 
     validateLicenseKey (license, userToken, gptr);
@@ -284,7 +284,7 @@ int main() {
                 break;
             }
             if (refreshed == 1) {
-                refreshFingKitDiscovery ();
+                refreshFingKitDiscovery();
                 refreshed = 0;
             }
             MUTEX_UNLOCK;

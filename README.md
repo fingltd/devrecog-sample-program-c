@@ -66,36 +66,21 @@ The documentation can download from this link:
 
 # Usage
 
-The Fing SDK contains a portable C Header and the libraries along with some working example to simplify users' job.
-
-```text
-.
-├── example/
-│   ├── bin
-│   │   └── FingKitDemo.bin
-│   ├── fingkitdemo
-│   └── src
-│       ├── FingKitDemo.c
-│       └── FingKitDemoCpp.cpp
-├── include/
-│   └── fingkit.h
-└── lib/
-    ├── ...
-    └── ...
-```
-
-The ```lib/``` folder contains all the dependencies in different format: 
-   * ```.dll``` for Windows
-   * ```.so``` for Linux / Unix / OpenWRT
-   * ```.dylib``` for MAC OSx
-   
-The ```include/``` folder hold the library interface that should be included
+The ```include/``` folder hold the a portable C header that should be included
 by the integrator.
 
-The ```example/``` folder contains the demo programs with the source code.
-On Windows the executable ```FingKitDemo.bin``` is called 
-``` FingKitDemo``` and the script ```fingkitdemo``` is called 
+The ```src/``` folder contains the demo programs with the source code.
+On Windows the executable ```FingKitDemo.bin``` is called
+``` FingKitDemo``` and the script ```fingkitdemo``` is called
 ```runFingKitDemo.bat```
+
+The Fing SDK contains all the libraries required to make the source program works.
+It must be downloaded and uncompressed under the root directory of this project.
+
+It contains a ```lib/``` folder with all the dependencies in different format:
+* ```.dll``` for Windows
+* ```.so``` for Linux / Unix / OpenWRT
+* ```.dylib``` for MAC OSx
 
 Dependencies
 -----
