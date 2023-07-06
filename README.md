@@ -123,6 +123,12 @@ build\windows-cmake-build-mscv9-solution.bat
 
 It creates a Visual Studio project. The documentation of Visual Studio 9 2008 is available [here](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008) 
 
+__Disclaimer:__
+
+> Please note that the functionality described below has been tested and confirmed to work properly on Visual Studio 9 2008. However, we regret to inform you that it is not
+> currently supported on Visual Studio 16 2019 and later versions. We apologize for any inconvenience caused and recommend using the supported Visual Studio 9 2008 environment
+> for optimal results. Thank you for your understanding.
+
 #### Linux
 
 ```bash
